@@ -1,10 +1,12 @@
-import Counter from "./features/counter/Counter";
+import { Outlet } from "react-router-dom";
+import Navbar from "./Layout/Navbar";
 
- 
+
 function App() {
   return (
     <>
-      <Counter />
+      <Navbar />
+      <Outlet />
     </>
   );
 }
